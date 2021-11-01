@@ -1,0 +1,40 @@
+.comments-container{
+    text-align: center;
+    align-items: center;
+}
+.name-surname-area{
+  width: 20vw !important;
+  display: block;
+     margin-left: auto;
+     margin-right: auto;
+     /*  margin-left: 22vw; */
+
+}
+.comment-area{
+    margin-top: 2vh !important;
+     width: 30vw !important;
+     display: block;
+     margin-left: auto;
+     margin-right: auto;
+    /* margin-left: 18vw;  */
+}
+.user-comments{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.comment{
+    margin-top: 2vh;
+    width: 30vw;
+}
+@media only screen and (max-width: 1000px) {
+    .name-surname-area{
+        width: 40vw !important;
+      }
+      .comment-area{
+           width: 60vw !important;
+      }
+      .comment{
+          width: 60vw;
+      }
+  }

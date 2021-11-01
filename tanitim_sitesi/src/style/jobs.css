@@ -1,0 +1,27 @@
+.jobs-header{
+    color:black;
+    text-align: center;
+}
+.jobs-info{
+    text-align: center;
+}
+.jobs{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.job{
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: center !important;
+    align-items: center !important;
+    text-align: center;
+    margin-top: 10vh;
+}
+.job-image{
+    margin-left: 10vw !important;
+}
+.carousel-arrow{
+    background-color: gray;
+}

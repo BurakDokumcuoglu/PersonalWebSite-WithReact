@@ -1,0 +1,12 @@
+.footer-container{
+    position:sticky;
+    bottom: 0;
+    background-color: black;
+    color: white;
+    width: 100vw;
+    height: 5vh;
+    overflow-x: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
